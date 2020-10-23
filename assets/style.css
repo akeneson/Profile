@@ -1,3 +1,67 @@
-.jumbotron{
-    align-content: center;
+html {
+    scroll-behavior: smooth;
 }
+body
+{
+    padding: 10px;
+    margin-top: none;
+    background-color: #203354;
+    color: white;
+}
+.jumbotron{
+    background-color: transparent!important;
+    text-align: center;
+}
+.pink{
+    color: pink!important;
+}
+.card, .card-group{
+    background-color: #203354!important;
+}
+.card-body{
+    background-color: white!important;
+    color:black;
+    text-align: center;
+    
+}
+.card-footer{
+    background-color: pink;
+}
+.card-header{
+    color:#203354;
+    font-weight: 700;
+    text-align: center;
+
+}
+.navbar{
+    background-color: transparent!important;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+}
+.navbar a{
+    color: white!important;
+}
+.navbar a:hover{
+    color:pink!important;
+}
+.pink{
+    color:pink!important;
+}
+.author{
+    text-align: right;
+}
+footer{
+    text-align: center;
+}
+.portfolio{
+    background-color: white;
+    color:#203354!important;
+}
+
+img {
+    display: block;
+    width: 20%;
+    height: 20%;
+    padding-right: 10px;
+    border: none;
+  }
